@@ -11,9 +11,7 @@ namespace KAKuBCE.SimpleTranslator
         private void Awake()
         {
             StringLocalizator.Initialization(devLanguage, supportLanguages);
-            SetCurrentLanguage(devLanguage);
+            StringLocalizator.SetTranslateLanguage(devLanguage);
         }
-
-        public void SetCurrentLanguage(Language language) => StringLocalizator.SetTranslateLanguage(Language.Rus);
     }
 }
