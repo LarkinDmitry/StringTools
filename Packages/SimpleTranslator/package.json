@@ -4,5 +4,5 @@
   "displayName": "Simple translator",
   "description": "String extension pack",
   "unity": "2021.1",
-  "dependencies": { }
+  "dependencies": {}
 }
