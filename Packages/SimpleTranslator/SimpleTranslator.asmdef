@@ -1,8 +1,9 @@
 {
-    "name": "simpleTranslator",
+    "name": "SimpleTranslator",
     "rootNamespace": "",
     "references": [
-        "Unity.TextMeshPro"
+        "Unity.TextMeshPro",
+        "Unity.TextMeshPro.Editor"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
