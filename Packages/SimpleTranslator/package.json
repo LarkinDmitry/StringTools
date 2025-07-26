@@ -1,8 +1,7 @@
 {
   "name": "com.kakubce.simpletranslator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "Simple translator",
   "description": "String extension pack",
-  "unity": "2021.1",
-  "dependencies": {}
+  "unity": "2021.1"
 }
