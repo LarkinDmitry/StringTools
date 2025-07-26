@@ -4,7 +4,9 @@
       "version": "file:SimpleTranslator",
       "depth": 0,
       "source": "embedded",
-      "dependencies": {}
+      "dependencies": {
+        "com.unity.textmeshpro": "3.0.9"
+      }
     },
     "com.unity.burst": {
       "version": "1.8.9",
