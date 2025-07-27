@@ -1,0 +1,8 @@
+{
+  "name": "com.kakubce.declensiongenerator",
+  "version": "1.0.1",
+  "displayName": "Declension Generator",
+  "description": "Declension Generator",
+  "unity": "2021.1",
+  "dependencies": {}
+}

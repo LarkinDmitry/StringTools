@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.kakubce.declensiongenerator": {
+      "version": "file:DeclensionGenerator",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.kakubce.simpletranslator": {
       "version": "file:SimpleTranslator",
       "depth": 0,
