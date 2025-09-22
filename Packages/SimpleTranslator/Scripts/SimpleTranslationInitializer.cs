@@ -10,7 +10,11 @@ namespace KAKuBCE.SimpleTranslator
 
         private void Awake()
         {
-            StringLocalizator.Initialization(devLanguage, supportLanguages);
+            if(!StringLocalizator.IsRun)
+            {
+                StringLocalizator.Initialization(devLanguage, supportLanguages);
+            }
+            
             StringLocalizator.SetTranslateLanguage(devLanguage);
         }
     }
