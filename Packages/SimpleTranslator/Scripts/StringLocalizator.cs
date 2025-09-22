@@ -14,6 +14,8 @@ namespace KAKuBCE.SimpleTranslator
         private static Language? developmentLanguage;
         private static Language? selectedLanguage;
         private static List<TranslationData> translationLib;
+        
+        public static bool IsRun => StringLocalizator.developmentLanguage != null;
 
         /// <summary>
         /// Select development language (default value - Eng), if you need to check the completeness of the translation,
@@ -23,7 +25,7 @@ namespace KAKuBCE.SimpleTranslator
         /// <param name="languagesCheckList"></param>
         public static void Initialization(Language developmentLanguage = Language.Eng, Language[] languagesCheckList = null)
         {
-            if (StringLocalizator.developmentLanguage == null)
+            if (!IsRun)
             {
                 StringLocalizator.developmentLanguage = developmentLanguage;
 
